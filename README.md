@@ -4,6 +4,13 @@ Simple COCO Objects Viewer in Tkinter. Allows quick viewing on local machine.
 
 ![Example images](assets/img1.png)
 
+# Quick Start
+```shell
+pip install git+https://github.com/Sologala/coco-viewer.git
+
+cocoviewer [img_dir] [ann_path]
+```
+
 ## Keyboard Shortcuts
 
 | Key | Action |
