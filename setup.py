@@ -8,8 +8,7 @@ setup(
         'importlib-metadata; python_version<"3.10"',
     ],
     packages=find_packages(
-        where="pyp",
-        include=["*"]
+        where="cocoviewer"
     ),
     entry_points={
         'console_scripts': [
