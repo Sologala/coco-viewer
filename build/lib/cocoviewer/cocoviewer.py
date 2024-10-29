@@ -22,13 +22,13 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 parser = argparse.ArgumentParser(
     description="View images with bboxes from the COCO dataset")
+
+parser.add_argument("img_dir",  type=str,
+                    help="path to images folder")
 parser.add_argument("ann_path",
                     type=str,
                     help="path to annotations json file",
                     )
-parser.add_argument("img_dir",  type=str,
-                    help="path to images folder")
-
 
 
 class Data:
